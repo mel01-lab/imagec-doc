@@ -1,13 +1,13 @@
 (about-imagec)=
 # About ImageC?
 
-**ImageC is open source software for high throughput bioimage analysis.**
+**ImageC is an open source software for high throughput bioimage analysis.**
 
 ```{figure} images/screenshot_open_pipeline.png
 :class: full-image
 ```
 
-ImageC is often used for **single vesicle quantification** applications because it offers a powerful set of templates optimized for working the **EV field** - but it can be applied to lots of other kinds of image and applications as well.
+ImageC provides an **easy to use graphical user interphase (GUI)** enabling the compilation of image processing pipelines for **Object detection and Quantification** from various types of microscopic images, particularly Brightfield images, fluorescence images and Histological images. It was optimized within a group focused on Nanovesicles and therefore offers a powerful set of templates optimized for **single vesicle quantification** in diverse in vitro and in vivo settings. 
 
 :::{sidebar} Features include
 
@@ -27,30 +27,24 @@ ImageC is often used for **single vesicle quantification** applications because 
 
 ## Is ImageC suitable for me?
 
-There are many image processing applications on the market.
-This raises the legitimate question of which of these programmes can best help me solve my problem?
+There are diverse commercial or open access image processing applications.
+What is special about ImageC? Is it the best program to help me to quantify my imaging data?
 
 ### What is ImageC not?
 
 - ImageC is not an universal image processing application like [ImageJ](https://imagej.net/).
 - ImageC is not designed for individual image processing even if it could be used for this.
-- ImageC is not designed to make pictures look pretty.
-- ImageC is not designed for manual image processing and analyzing.
+- ImageC is not designed "to make pictures look pretty".
+- ImageC is not designed for manual image processing or object segmentation.
 
 ### What is ImageC?
 
 - ImageC is designed for high throughput image analyzing and data generation.
-- ImageC is designed for raw data generation which can be further processed  using the internal tool, R or Excel.
-- ImageC is designed for massive data generation and preparation based on the analyzed images.
-- ImageC is designed for automatic image processing based on generated pipelines.
-- ImageC is designed for big image / histological image analysis.
-- ImageC is designed for reproducible data evaluation.
-
-(decision-aid)=
-## Decision aid
+- ImageC generates huge raw data sets that can be further processed using basic internal tools, R or Excel.
+- Image C enables the user to build individual pipelines put together from a set of widely used image processing algorithms.
+- ImageC is designed for fast processing of huge data sets or huge images (e.g. histological images/ whole well scans).
+- ImageC is designed for reproducible image analysis (reusable pipelines that can be shared)
+- ImageC provides useful data sorting algorithm that help with data managment (e.g. usage of image sorting based on known well formats)
 
 
-```{figure} images/decission_matrix.drawio.svg
-:class: full-image
-```
 
