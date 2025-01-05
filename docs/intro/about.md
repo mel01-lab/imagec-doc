@@ -39,12 +39,22 @@ What is special about ImageC? Is it the best program to help me to quantify my i
 
 ### What is ImageC?
 
-- ImageC is designed for high throughput image analyzing and data generation.
+- ImageC is designed for high throughput image analyzing, object detection and quantification.
 - ImageC generates huge raw data sets that can be further processed using basic internal tools, R or Excel.
-- Image C enables the user to build individual pipelines put together from a set of widely used image processing algorithms.
+- Image C enables the user to build individual object detection pipelines put together from a set of widely used image processing algorithms.
 - ImageC is designed for fast processing of huge data sets or huge images (e.g. histological images/ whole well scans).
 - ImageC is designed for reproducible image analysis (reusable pipelines that can be shared)
 - ImageC provides useful data sorting algorithm that help with data managment (e.g. usage of image sorting based on known well formats)
+- Image C provides transparent and understandable object detection enabled by a live preview and generation of control images.
+- Image C can be used to quantify fluorescence in Objects.
+- Image C can be used to seperate objects based on colour (e.g. from histological stainings).
+- Image C can process Z-stacks.
+
+### What is planned for Image C?
+
+- Image C will be able to automatically process microscopic videos and trace objects over time
+- Image C will be able to process huge Z-stacks / 3D images (e.g. from lightsheet imaging)
+  
 
 
 
