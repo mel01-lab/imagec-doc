@@ -30,6 +30,86 @@ ImageC provides an **easy to use graphical user interphase (GUI)** enabling the 
 There are diverse commercial or open access image processing applications.
 What is special about ImageC? Is it the best program to help me to quantify my imaging data?
 
+````{grid}
+:gutter: 2
+
+:::{grid-item-card} 🚀 Pipeline creation 
+:columns 4
+
+ImageC enables to create individual pipelines for object detection ut together from a set of widely used image processing algorithms including backgound substraction algorithms,  filtering, edge detection and manual as well as auto- thresholding.
+:::
+
+:::{grid-item-card} 🚀 High troughput image analysis
+:columns 4
+
+Image C is designed for fast procession and analysis of a huge amount of images or of huge images. :::
+
+:::{grid-item-card} 🚀 Big data organisation
+:columns 4
+
+Moving into high throughput analysis of huge data sets and huge images (e.g. histological sections) is linked to an increase in data volume, making automated image and data processing inevitable. To meet these criteria Image C enables for automated data sorting and filtering as well as  processing with Excel or R.
+:::
+
+:::{grid-item-card} 🚀 AI driven object detection
+:columns 4
+
+ImageC enables to include aritificial intelligence for object detection. Image C supports the ONNX container format with net hight x with 640 x 640 and a stride size of 3. traning input: RGB image, 32bit float RGB.
+:::
+
+:::{grid-item-card} 🚀 BioFormats support
+:columns 4
+
+All common image formats used by different microscopy manufacturer are supported. Please note that not all formats support pyramid images and therefore the overview preview may be impaired for some of them.
+:::
+
+:::{grid-item-card} 🚀 OME-XML support
+:columns 4
+
+Image C automatically extracts underlying image infos (e.g. channel infos, Z-stack infos, etc. ).
+:::
+
+:::{grid-item-card} 🚀 Reuseable and sharable pipelines
+:columns 4
+
+ImageC is designed for reproducible image analysis (reusable pipelines that can be shared)
+:::
+
+:::{grid-item-card} 🚀 Live preview
+:columns 4
+
+ImageC offers a live preview enabling to monitor the impact of all image processing steps within your pipelineand thereby provides transparent and understandable object detection enabled 
+:::
+
+:::{grid-item-card} 🚀 Generation of control images
+:columns 4
+
+ImageC generates user defined control images, for documentation and internal control.
+:::
+
+:::{grid-item-card} 🚀 Image/Data sorting
+:columns 4
+
+Automated image sorting based on e.g. typical well formats used in biology (96well plate, etc) can help to sort images. Mean, median, max, min, SD, SUM and Count can be automatically evaluated from multiple images within a group ( e.g. from multiple images per well). 
+:::
+
+:::{grid-item-card} 🚀 Heatmaps
+:columns 4
+
+Image C can autoamtic generate heatmaps of images OR of image groups (e.g. wells), enabling a quick assessment of the data. 
+:::
+
+:::{grid-item-card} 🚀 Image/Data Filtering
+:columns 4
+
+Image C enables to predefine data filter which enables a prefiltering of huge data sets (e.g. remove Images without cells, etc)
+:::
+````
+
+
+
+
+
+
 ### What is ImageC not?
 
 - ImageC is not an universal image processing application like [ImageJ](https://imagej.net/).
