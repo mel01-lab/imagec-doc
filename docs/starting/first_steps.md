@@ -4,15 +4,13 @@
 The following tutorial will provide an overview of the fundamental concepts and functions of ImageC, offering guidance on the initial steps required for effective utilization of the software.
 The tutorial will demonstrate the following:
 
-- Creating a new project
-- Defining classes
-- Adding pipelines
-- Starting an analyzes
-- Open analyzes results
+- Create a new project
+- Define classes
+- Compile pipelines
+- Start an analysis
+- Open analysis results
 - Export results
 
-
-## Analyze images
 
 :::{note}
 If you have problems running ImageC see {doc}`here <../intro/installation>`.
@@ -31,7 +29,7 @@ ImageC start screen
 The Settings tab on the left is divided into the following sections {guilabel}`Project`, {guilabel}`Classification`, {guilabel}`Pipeline`, {guilabel}`Images` and {guilabel}`Results`.
 
 (project-tab)=
-## Project tab
+### Project tab
 
 Starting with the project settings, basic information about the experiment and the scientist conducting the experiment needs to be collected.
 
